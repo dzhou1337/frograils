@@ -1,0 +1,30 @@
+project frog rails
+
+New Year, New Skills Game Jam
+Theme: Building Connections
+
+Summary:
+Forest animal themed rail building game with a gameplay loop like Railroad Ink
+
+gameplay loop:
+-Spend money on dice (rolled for rail pieces or items) and/or items
+-Place rail pieces and use items
+-End turn
+  -Unused rail pieces removed, (unused items removed as well?)
+  -Money gained from completed train routes
+
+win condition:
+-connecting all destinations
+
+lose condition:
+-none?
+-not winning on time?
+-not completing certain objectives within some turn amount limit?
+
+level layout:
+-A m x n grid
+-Each square in the grid is one of the following
+ -A destination
+ -A rail (with variations in turns and directions)
+ -Buildable space, where a rail can be placed
+ -Blocked space, where rails can't be placed

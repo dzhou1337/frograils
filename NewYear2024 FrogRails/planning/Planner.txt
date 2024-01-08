@@ -1,0 +1,18 @@
+Planner:
+
+Stage 1 Planning:
+- Basic design doc OK
+- Basic UI plan OK
+- Prototyping in Gamemaker
+
+Stage 2 Dev:
+Make the game work, write all the code for needed features
+- Identify tech requirements and their priorities
+- Iteratively implement each requirement
+- test requirements
+
+Stage 3 Looks:
+Replace all dev sprites with good looking sprites
+
+Stage 4 Sounds:
+Make sound effects, maybe make music
