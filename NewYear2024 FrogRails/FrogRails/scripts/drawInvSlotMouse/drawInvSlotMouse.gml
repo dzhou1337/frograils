@@ -6,12 +6,12 @@ function drawInvSlotMouse(itemName,angle){
 	switch(itemName){
 		case "rail":
 			draw_sprite_ext(spr_rail_straight,0,mouse_x,mouse_y,1,1,angle*90,c_white,1)
-			
 			break;
 		case "rail_L":
 			draw_sprite_ext(spr_rail_L,0,mouse_x,mouse_y,1,1,angle*90,c_white,1)
-			
 			break;
+		case "bomb":
+			draw_sprite_ext(spr_bomb,0,mouse_x,mouse_y,1,1,0,c_white,1)
 		case -1:
 			break;
 	}

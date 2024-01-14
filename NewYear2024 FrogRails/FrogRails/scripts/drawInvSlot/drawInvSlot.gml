@@ -11,6 +11,10 @@ function drawInvSlot(slot){
 			draw_sprite(spr_rail_L,0,x+16,y+16)
 			draw_text(x,y,slot.count)
 			break;
+		case "bomb":
+			draw_sprite(spr_bomb,0,x+16,y+16)
+			draw_text(x,y,slot.count)
+			break;	
 		case -1:
 			break;
 	}

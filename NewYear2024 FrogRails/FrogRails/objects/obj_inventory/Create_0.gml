@@ -3,7 +3,7 @@
 
 //Slots arrangement
 mapWidth = 4
-mapHeight = 4
+mapHeight = 1
 
 tileSize = sprite_get_width(spr_inventory_slot)
 slotList = ds_list_create()
@@ -11,6 +11,7 @@ slotList = ds_list_create()
 itemToSlotMap = ds_map_create()
 
 activeItem = -1
+activeIndex = -1
 /*
 	0 = no spin
 	1 = 90 deg
@@ -20,9 +21,9 @@ activeItem = -1
 activeItemRotate = 0
 
 slotIndex = 0
-for (var i = 0; i < mapWidth; i++){
+for (var i = 0; i < mapHeight; i++){
 	
-	for (var j = 0; j < mapHeight; j++){
+	for (var j = 0; j < mapWidth; j++){
 		slot = instance_create_depth(x + (tileSize+16) * j, y + (tileSize+8) * i, 0, obj_inventory_slot)
 		slot.index = slotIndex
 		slotIndex++
